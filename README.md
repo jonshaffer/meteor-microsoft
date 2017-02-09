@@ -7,7 +7,7 @@ __An implementation of the Microsoft OAuth flow__
 
 Add the package to meteor
 ```
-meteor add q42:microsoft
+meteor add jonshaffer:microsoft
 ```
 
 ## Basic usage
@@ -20,13 +20,13 @@ var callback = Accounts.oauth.credentialRequestCompleteHandler(callback);
 Microsoft.requestCredential(options, callback);
 ```
 
-For examples and more information on what options you can use, check out: [q42:accounts-microsoft](https://github.com/Q42/meteor-accounts-microsoft).
+For examples and more information on what options you can use, check out: [jonshaffer:accounts-microsoft](https://github.com/jonshaffer/meteor-accounts-microsoft).
 
 ## References
 
 ### Accounts package
 
-* [q42:accounts-microsoft](https://github.com/Q42/meteor-accounts-microsoft)
+* [jonshaffer:accounts-microsoft](https://github.com/jonshaffer/meteor-accounts-microsoft)
 
 ### Microsoft REST documentation
 
@@ -34,5 +34,5 @@ For examples and more information on what options you can use, check out: [q42:a
 * [Signing users in](https://msdn.microsoft.com/en-us/library/office/dn659750.aspx)
 * [Getting user data](https://msdn.microsoft.com/en-us/library/office/dn659736.aspx)
 
-[travis-url]: https://travis-ci.org/Q42/meteor-microsoft
-[travis-image]: http://img.shields.io/travis/Q42/meteor-microsoft.svg
+[travis-url]: https://travis-ci.org/jonshaffer/meteor-microsoft
+[travis-image]: http://img.shields.io/travis/jonshaffer/meteor-microsoft.svg
