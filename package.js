@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'microsoft',
+  name: 'jonshaffer:microsoft',
   version: '1.0.1',
   summary: 'An implementation of the Microsoft OAuth flow.',
-  git: 'https://github.com/Q42/meteor-microsoft',
+  git: 'https://github.com/jonshaffer/meteor-microsoft',
   documentation: 'README.md'
 });
 
@@ -26,7 +26,7 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('ecmascript');
-  api.use('microsoft');
+  api.use('jonshaffer:microsoft');
 
   // Tests will follow soon!
   api.addFiles([]);
